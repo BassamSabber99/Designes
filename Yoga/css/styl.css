@@ -1,0 +1,581 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background: url(../images/hero_2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    transition: all 1s;
+}
+header .container{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    transition: all 1s;
+}
+header .container nav{
+    width: 100%;
+    height: 80px;
+    overflow: ;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    transition: all 1s;
+}
+header .container nav ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 0;
+    list-style: none;
+    transition: all 1s;
+}
+header .container nav ul li{
+    width:120px;
+    height:50px;
+    float:left;
+    text-align:center;
+    transition:all .5s;
+    transition: all 1s;
+}
+header .container nav ul li a{
+    text-decoration:none;
+	color:rgb(111, 111, 111);
+	font-size:14px;
+	line-height:50px;
+    font-family: arial;
+    transition: all 1s;
+}
+header .container nav ul li a:hover{
+    color: #0cd1d1;
+}
+#child{
+    background: black;
+    position: relative;
+    left: 60px;
+    top: -12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: none;
+    transition: all 5s;
+    transition: all 1s;
+}
+#child li{
+    padding: 10px;
+    position: relative;
+    transition: all 1s;
+}
+#child li a span{
+    position: absolute;
+    top: -18px;
+    font-size: 50px;
+    color: black;
+    transition: all 1s;
+}
+
+#parent:hover #child{
+    display: block;
+}
+header .container nav h1{
+    color: black;
+    width: 30%;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 24px;
+    float: left;
+    font-size: 30px;
+    line-height: 20px;
+    transition: all 1s;
+}
+header .container .txt{
+    width: 70%;
+    height: 20%;
+    margin: 300px auto;
+    transition: all 1s;
+}
+header .container .txt p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    font-family: arial;
+    transition: all 1s;
+}
+header .container .txt h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    transition: all 1s;
+}
+.sec1{
+    width: 100%;
+    height: 500px;
+}
+.sec1 .left{
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: url(../images/hero_1.jpg);
+    background-size: cover;
+}
+.sec1 .right{
+    float: left;
+    width: 28%;
+    height: 80%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.sec1 .right h1{
+    font-size: 35px;
+    padding: 10px;
+    font-family: arial;
+    text-align: left;
+}
+.sec1 .right h3{
+    color: #53f5f5;
+    font-family: arial;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.sec1 .right p{
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 40px;
+    font-family: arial;
+    color: rgba(126, 126, 126, 0.99);
+}
+.sec1 .right button{
+    font-family: arial;
+    width: 180px;
+    height: 50px;
+    background: #92e2f0;
+    border:2px solid #92e2f0;
+    border-radius: 50px;
+    color: white;
+}
+.sec1 .right button:hover{
+    background: #4ecae0;
+}
+.sec2{
+    width: 100%;
+    height: 1400px;
+    background: #eee;
+    overflow: hidden;
+}
+.sec2 h1{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 100;
+}
+.sec2 hr{
+    width: 8%;
+    margin: auto;
+}
+.sec2 .d1{
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 25%;
+    height: 400px;
+    float: left;
+    background: white;
+    box-shadow: 10px 10px 20px black;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.container img {
+  display: block;
+  width: 100%;
+  height: 240px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height:100%;
+  transition: all .5s ;
+}
+.container:hover .overlay{
+  height:0%;
+}
+#c1 .overlay{
+    bottom:0%;
+    left: 0;
+    right: 0;
+}
+#c1:hover .overlay{  
+    bottom:100%;
+    height:0%;
+}
+#c3 .overlay{
+    width:100%;
+    height: 100%;
+    bottom:0;
+    left:  0;
+    right: 0;
+}
+#c3:hover .overlay{
+    left:0%;
+    width: 0%;
+}
+#c4 .overlay{
+    width:100%;
+    height: 100%;
+    bottom:0;
+    left:  0%;
+    right: 100%;
+}
+#c4:hover .overlay{
+    left:100%;
+    width: 0%;
+}
+#c5 .overlay{
+    width:100%;
+    height: 100%;
+    bottom:0;
+    left:  0;
+    right: 0;
+}
+#c5:hover .overlay{
+    left:0%;
+    width: 0%;
+}
+.sec2 .d1 h4{
+    width: 55%;
+    padding: 30px;
+    margin-left: 5px;
+    text-align: left;
+    font-family:arial;
+    font-weight: 100;
+}
+.sec2 .d1 p{
+    color: #0cd1d1;
+    width: 70%;
+    margin-left: 33px;
+}
+.sec2 .d1 p span{
+    color: black;
+}
+.sec3{
+    width: 100%;
+    height: 500px;
+    background: #f8f8f8;
+}
+.sec3 .left{
+    float: left;
+    width: 55%;
+    height: 100%;
+}
+.sec3 .left video{
+    margin-left:70px;
+    margin-top: 100px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px black;   
+}
+.sec3 .right{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+.sec3 .right h1{
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 45px;
+    font-weight: 100;
+    font-weight: 100;
+}
+.sec3 .right hr{
+    width: 20%;
+    margin-left: 40px;
+}
+.sec3 .right p{
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: arial;
+    line-height: 25px;
+    color: #a0a0a0;
+}
+.sec4{
+    width: 100%;
+    height: 900px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+.sec4 h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: serif;
+     font-weight: 100;
+}
+.sec4 hr{
+    width: 8%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.sec4 #d1{
+    width: 20%;
+    height: 55%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    background: url(../images/hero_2.jpg) no-repeat;
+    overflow: hidden;
+    background-size: 100% 100%;
+    
+}
+.sec4 #d1 .content{
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 209, 209, 0.75);
+    overflow: hidden;
+}
+.sec4 #d1 .content h2{
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}
+.sec4 #d1 .content strong{
+    margin-left: 90px;
+    font-size: 30px;
+    color: white;
+}
+.sec4 #d1 .content p{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-family: arial;
+}
+.sec4 #d1 .content button{
+    width: 50%;
+    height: 10%;
+    border:1px solid #5ccaf2;
+    border-radius: 30px;
+    background: rgba(255, 0, 0, 0.16);
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.sec4 #d1 .content button:hover{
+    background: black;
+    color: white;
+}
+.sec4 #d2{
+    width: 20%;
+    height: 55%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    border:1px dashed #5ccaf2;
+    overflow: hidden;
+}
+.sec4 #d2 h2{
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+}
+.sec4 #d2 strong{
+    margin-left: 100px;
+    font-size: 30px;
+    color: black;
+}
+.sec4 #d2 p{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 25px;
+    color: #777777;
+    font-family: arial;
+}
+.sec4 #d2 button{
+    width: 50%;
+    height: 10%;
+    border:1px solid #5ccaf2;
+    border-radius: 30px;
+    background: rgba(40, 135, 163, 0.4);
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.sec4 #d2 button:hover{
+     background: rgb(40, 135, 163);
+}
+.sec5{
+    width: 100%;
+    height: 900px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+.sec5 h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 100;
+}
+.sec5 hr{
+    width: 8%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.sec5 img{
+    margin: 0;
+    float: left;
+    width: 25%;
+    height: 25%;
+    filter: scale(5px);
+    transition: all 1s ,transform 1s;
+}
+.sec5 img:hover{
+    transform: scale(1.5);
+}
+.sec6{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background: white;
+}
+.sec6 h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 100;
+}
+.sec6 hr{
+    width: 8%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.sec6 div{
+    width: 25%;
+    height: 600px;
+    float: left;
+    margin-left: 90px;
+    overflow: hidden;
+}
+.sec6 div iframe{
+    width:100%;
+    height: 50%;
+}
+.sec6 div h2{
+    color: #5c5a5a;
+    font-family: arial;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.sec6 div p{
+    font-size: 17px;
+    color:#797979;
+    width: 86%;
+    margin:auto;
+    line-height: 28px;
+}
+footer{
+    width: 100%;
+    height:550px;
+    overflow: hidden;
+    background: #383737;
+}
+footer div{
+    width: 25%;
+    height: 60%;
+    margin-left:90px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    float: left;
+
+}
+footer div h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 25px;
+}
+footer div p{
+    color: #969595;
+    font-family: arial;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+footer div button{
+    margin-left: 30px;
+    width: 45%;
+    height: 15%;
+    border:1px solid #00abde;
+    border-radius: 30px;
+    background: #00d9ff;
+    color: white;
+}
+footer div ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer div ul li{
+    margin-bottom: 20px;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-family: arial;
+}
+footer div ul li a:hover{
+    color: #a8a8a8;
+}
+footer #rights{
+    clear: both;
+    width: 50%;
+    margin: auto ;
+    color: #a8a8a8;
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+footer #rights span{
+    color: #00e2ff;
+}

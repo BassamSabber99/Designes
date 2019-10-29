@@ -1,0 +1,584 @@
+.slider{
+    height: 100%;
+    width: 103%;
+    background-image: url(images/unnamed.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    margin: 0;
+}
+
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(5, 4, 4, 0.87);
+    overflow: hidden;
+}
+
+.slider .navbar .header span{
+    display: inline-block;
+    color: white;
+    padding-left:120px;
+    padding-top: 6px;
+    font-size: 36px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.slider .navbar .header .links{
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+    margin-right: 100px;
+}
+.slider .navbar .header .links ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.slider .navbar .header .links ul li{
+    display: inline-block;
+    margin-left:35px;
+    padding-top: 0.1%;
+}
+.slider .navbar .header .links ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif;
+    font-size: 15px;
+}
+.slider .navbar .header .links ul li a:hover{
+    text-decoration: underline;
+    color:#39b9ef;
+}
+.slider .navbar .header span .a{
+    padding-left: 0;
+    color: #39b9ef;
+}
+.slider .container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 4, 4, 0.79);
+    padding-left:15%;
+    padding-top: 10%;
+}
+.slider .container .text span{
+    color: white;
+    font-size: 72px;
+    font-family: sans-serif;
+}
+.slider .container .text p .Austra{
+    color: 39b9ef;
+    font-size:72px; 
+}
+.slider .container .text .all{
+    color: white;
+    font-size: 24px;
+    padding-left: 22%;
+}
+.slider .container .text  button{
+    width: 14%;
+    background-color: #2ebaee;
+    border-color: #2ebaee;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+}
+.slider .container .text .but{
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+.paragraph{
+    height: 75%;
+    width: 100%;
+    
+    
+}
+.paragraph hr{
+
+    width: 60%;
+    
+}
+.paragraph .our{
+    padding-left: 40%;
+}
+.paragraph .our h1{
+    width: 30%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.paragraph .services {
+    width: 100%;
+   overflow: hidden;
+   margin: 20px 0 0 40px;
+}
+.paragraph .services .container{
+    width: 85%;
+    overflow: hidden;
+}
+.paragraph .services .container table{
+    margin-top: 6%;
+   margin-left: 20%;
+}
+
+.paragraph .services .container tr td img{
+    width: 25%;
+}
+
+.paragraph .services .container tr td h3{
+    font-size: 18px;
+    font-family:serif;
+    color: #555;
+}
+.paragraph .services .container table tr td p{ 
+    width: 100%;
+    font-family:cursive;
+    line-height: 18px;
+    font-size: 15px;
+}
+.paragraph button{
+    background-color:#39b9ef;
+    color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    margin-top: 6%;
+    margin-left: 45%;
+
+
+}
+.about{
+   float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.about .text{
+    color: #555;
+}
+.about .text h2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about .text p{
+    line-height:25px;
+    font-family: cursive;
+}
+.about button{
+    background:#39b9ef;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color:white;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-family:cursive;
+}
+.imglap img{
+    width: 25%;
+    margin-top: 80px;
+    margin-left: 190px;   
+}
+.clear{
+    clear: both;
+} 
+.about1{
+    float: left;
+    width: 103%;
+    height: 60%;
+    background: #39b9ef;
+    margin-top: 4%;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.about1 .imglap1{
+    float: left;
+}
+.about1 .imglap1 img{
+    margin-left: 50%;
+    margin-top: 30%;
+}
+.about1 .container{
+    float: left;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 8%;
+}
+.about1 .container .text1{
+    color: white;
+}
+.about1 .container .text1 h2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.about1 .container .text1 p{
+    line-height:25px;
+    font-family: cursive;
+}
+.about1 .container button{
+    background:white;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color:#39b9ef;
+    margin-left: 2%;
+    margin-top: 1%;
+    font-family:cursive;
+}
+.contact {
+    float: left;
+    width: 103%;
+    height: 65%;
+    background: #DDD;
+    overflow: hidden;
+}
+.contact .container{
+    width: 104%;
+    height: 100%;
+    overflow: hidden;
+
+        
+}
+.contact .container .image img{
+   width: 48%;
+    height: 100%;
+    float: left;
+}
+.contact .container .text{
+    width: 40%;
+    height: 85%;
+    margin-left: 56%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+.contact .container .text h1{
+    width: 40%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.contact .container .text p{
+    line-height:25px;
+    font-family: cursive;
+    margin-top: 8%;
+    height: 40%;
+    width: 70%;
+}
+.contact .container button{
+    background:#39b9ef;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color:white;
+    margin-left: 10%;
+    margin-top: -3%;
+    font-family:cursive;
+}
+
+.home {
+    width: 103%;
+    height: 50%;
+    background: red;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
+.home .list{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.home .list .container{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.home .list .container .back {
+    float: left;
+    margin-right: 15%;
+    background-image: url(images/laptop.jpg);
+    background-size: contain;
+    width: 25%;
+    height: 100%;
+    color: white;
+}
+.home .list .container .back .text{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(5, 4, 4, 0.87); 
+}
+.home .list .container .back .text h1{
+    margin-top: 38%;
+    margin-left: 12%;
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+
+
+
+
+.home .list .container .back1 {
+    float: left;
+    margin-right: 15%;
+    background-image: url(images/macbook-stock-2-720x720.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    color: white;
+    margin-left: -15%;
+}
+.home .list .container .back1 .text1{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(57, 185, 239, 0.87); 
+}
+.home .list .container .back1 .text1 h1{
+    margin-top: 38%;
+    margin-left: 12%;
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+
+.home .list .container .back2 {
+    float: left;
+    margin-right: 15%;
+    background-image: url(images/cursos-adobe.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    color: white;
+    margin-left: -15%;
+}
+.home .list .container .back2 .text2{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(5, 4, 4, 0.87); 
+}
+.home .list .container .back2 .text2 h1{
+    margin-top: 38%;
+    margin-left: 12%;
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+
+
+.home .list .container .back3 {
+    float: left;
+    background-image: url(images/images.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    color: white;
+    margin-left: -15%;
+    
+}
+.home .list .container .back3 .text3{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color:rgba(5, 4, 4, 0.87); 
+}
+.home .list .container .back3 .text3 h1{
+    margin-top: 38%;
+    margin-left: 12%;
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: bold;   
+}
+.co {
+    width: 40%;
+    font-weight:bold;
+    font-family:sans-serif;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 60px;
+}
+.co span{
+    color:#39b9ef;
+}
+.persons .container table{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.persons .container table tr td img{
+    width: 50%;
+    border-radius: 60px;
+}
+.persons .container table tr td h2{
+    margin-top: 6%;
+    margin-left: 5%;
+    font-family:monospace;
+    font-weight:lighter;   
+}
+.persons .container table tr td span{
+    margin-left: 15%;
+    color: #555;
+}
+
+
+.persons .container table tr td button{
+    background:#39b9ef;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color:white;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family:cursive; 
+}
+.end{
+    width: 103%;
+    height: 90%;
+    margin-top: 5%;
+    background-image: url(images/videoblocks-business-man-working-and-writing-in-laptop-on-office-desk-background-hands-top-view-slow-motion-red-epic_rdwdrtwl3x_thumbnail-full01.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.end .container{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(5, 4, 4, 0.75);   
+    display: inline-block;
+}
+.end .container .text{
+    width: 100%;
+    height: 60%;
+    color: white;
+    margin-left: 12%;
+    margin-top: 4%;
+}
+.end .container .text h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.end .container .text p{
+    color: #555;
+    font-family: cursive;
+}
+.end .container .text p span{
+    color:#39b9ef;
+}
+.end .container .text img{
+   margin-top: 2%;
+    width: 35px; 
+    margin-right:20px;
+}
+.end .container table{
+    float: right;
+    margin-right: 15%;
+    margin-top: -24%;
+    color: white;
+    
+}
+.end .container table tr td {
+    width: 50%;
+    color: white;
+}
+.end .container table tr td input{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border-color: rgba(66, 106, 106, 0.88);
+    border-width: 1px;
+    color: white;
+}
+.end .container table tr td textarea{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border-color: rgba(66, 106, 106, 0.88);
+    border-width: 1px;
+    color: white;
+}
+.end .container table tr td button{
+    background:#39b9ef;
+    border-style: solid;
+    border-color:#39b9ef;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color:white;
+    font-family:cursive; 
+    float: right;
+    margin-right: 30%;
+    margin-top: -6%;
+}
+.footer{
+    display: inline-block;
+    width: 103%;
+    height: 65px;
+    background: black;
+    overflow: hidden;
+    float: left;
+}
+.footer .container .link ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.footer .container .link ul li{
+        display: inline-block;
+        margin-left:35px;
+        margin-top:-5%;
+}
+
+.footer .container .link ul li a{
+        text-decoration: none;
+        color: white;
+        font-family:sans-serif;
+        font-size: 12px;
+}
+
+.footer .container .link ul li a:hover{
+        text-decoration: underline;
+        color:#39b9ef;
+}
+.footer .copy {
+        display: inline-block;
+        float: right;
+        color: white;
+        margin-top: -3.3%;
+        margin-right: 6%;
+}
+.footer .copy p{
+    font-size: 13px;
+    font-family: cursive;
+}
+.scrollup{
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    width: 3%;
+    display: none;
+}

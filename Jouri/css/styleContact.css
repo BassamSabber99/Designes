@@ -1,0 +1,328 @@
+@font-face{
+    font-family: 'Daddy Rewind';
+    src:url('../webfonts/Daddy\ Rewind.ttf');
+}
+@font-face{
+    font-family: 'DK';
+    src:url('../webfonts/DK.otf');
+}
+@font-face{
+    font-family: 'Votens';
+    src:url('../webfonts/vontens.otf');
+}
+@font-face{
+    font-family: 'anjaeliane';
+    src:url('../webfonts/anjaeliane.ttf');
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background: url("../images/ (2).jpg") no-repeat top center;
+    background-size: cover; 
+}
+nav{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: transparent ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+}
+.imgl{
+    width: 60px;
+}
+.imgl img{
+    width: 100%;
+    height: auto;
+}
+.opennav{
+    margin-top: 15px;
+}
+.txt-l{
+    margin-top: 20px;
+    color:white;
+    font-family: Daddy Rewind;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.opennav{
+    margin-top: 15px;
+}
+.txt-l{
+    margin-top: 20px;
+    color:white;
+    font-family: Daddy Rewind;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 200;
+}
+.overlay .icons{
+    position: absolute;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+  
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: DK;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #01A4B8;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+header .jumb{
+  position: absolute;
+  top:40%;
+  left:24%;
+  color:white;
+}
+header .jumb h1{
+    text-align: center;
+    font-family: DK;
+    color:#01A4B8;
+}
+header .jumb p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header .arrow{
+    position: absolute;
+    width: 25px;
+    height: 70px;
+    background: transparent;
+    border:0.5px solid white;
+    border-radius: 50px;
+    top:90%;
+    left:50%;
+    z-index: 3;
+    overflow: hidden;
+    
+}
+header .arrow img{
+    width: 100%;
+    height: auto;
+    animation: go-up-down 2.5s infinite 0s;
+}
+@keyframes go-up-down{
+    0%{
+        transform: translateY(-30px);
+        opacity: 0.1;
+    }
+    100%{
+        transform: translateY(30px);
+        opacity: 1;
+    }
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background: #565658;
+    overflow: hidden;
+}
+.contact .overlay1{
+    width: 100%;
+    height: auto;
+    background: url("../images/pattern2.png") no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+}
+.contact .overlay1 h1{
+    text-transform: capitalize;
+    color:#01A4B8;   
+    margin-top:80px;
+    margin-bottom: 20px;
+    font-family: DK;
+}
+.contact .overlay1 .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.contact .overlay1 .container .box{
+    width:300px;
+    height: 500px;
+    margin-left: 35px;
+    overflow: hidden;
+}
+.contact .overlay1 .container .box h2{
+    text-align: center;
+    margin-top: 80px;
+    color:#01A4B8;
+    width: 70px;
+    height: 70px;
+    border:0.5px solid #01A4B8;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 60px;
+    background: rgba(95, 95, 95, 0.657);
+}
+.contact .overlay1 .container .box h3{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color:#01A4B8;
+    margin-bottom: 30px;
+}
+.contact .overlay1 .container .box h6{
+    text-transform: capitalize;
+    text-align: center;
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact .overlay1 .container .box p{
+    text-align: center;
+    color:white;
+    font-size: 14px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #565658;
+    overflow: hidden;
+}
+footer .overlay4{
+    width: 100%;
+    height: 100%;
+    background: url(../images/pattern3.png) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+}
+footer .overlay4 .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top:20px;
+}
+footer .overlay4 .logof{
+    width:10%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+footer .overlay4 .logof img{
+    width: 100%;
+    height: auto;
+}
+footer .overlay4 .links{
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+    margin-right: 24%;
+    margin-top:50px;
+}
+footer .overlay4 .links .icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer .overlay4 .links .icons a{
+    width: 50px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    border:0.5px solid #;
+    line-height: 40px;
+    border-radius: 30px;
+    background: #565658;
+    color:#01A4B8;
+    transition: all 0.5s;
+}
+footer .overlay4 .links .icons a:hover{
+    background: rgb(0, 225, 255);
+    color:#565658;
+}
+footer .overlay4 .links h4{
+    margin-bottom: 20px;
+    color:rgb(0, 225, 255);
+    font-family:anjaeliane;
+}
+footer .overlay4 .links .locallink{
+    width: 100%;
+    height: auto;
+    margin-top:20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer .overlay4 .links .locallink a{
+    color:black;
+    font-family: DK;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+footer .overlay4 .links .locallink a:hover{
+    color:rgb(1, 163, 184)
+}
+footer .overlay4 p{
+    margin-top:10px;
+    color:#01A4B8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #565658;
+    overflow: hidden;
+}
+footer .overlay4 p img{
+    width: 3%;
+    height: auto;
+    overflow: hidden;
+}
+#up{
+    display: none;
+    transition: all 0.5s;
+}
+#up i{
+    font-size: 40px;
+    position: fixed;
+    bottom:50px;
+    right:30px;
+    color:rgb(56, 56, 56);
+    cursor: pointer;
+    transition: all 0.5s;
+}

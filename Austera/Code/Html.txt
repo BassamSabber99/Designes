@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Austra</title>
+        <link rel="stylesheet" href="Normalize.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="slider">
+            <div class="navbar">
+                <div class="header">
+                    <span>Auster<span class="a">a</span></span>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Homepage</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>        
+                    </div>
+                </div>
+            </div>    
+            <div class ="container">
+                <div class="text">
+                    <p><span><span class="Austra">Austera</span> is simple PSD template</span><br/><span class="all">Lorem ipsum dolor sit amet, consectetur adipiscing elixt.</span></p>
+                    <div class="but">
+                        <button>Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paragraph">
+            <div class="our">
+                <h1>Our services</h1> 
+            </div>
+            <hr/>
+            <div class="services">
+                <div class="container">
+                    <table>
+                    <tr>
+                        <td>
+                            <img src="images/responsive_web_design-128.png">
+                        </td>
+                        <td>
+                            <img src="images/iconfinder_security-protect-lock-shield-32_4021454.png">
+                        </td>
+                        <td>
+                            <img src="images/doc.png">
+                        </td>
+                         <td>
+                            <img src="images/Learn_ThinkSquad.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Responsive Design</h3>
+                        </td>
+                        <td>
+                            <h3>Endless Security</h3>
+                        </td>
+                        <td>
+                            <h3>Incredible Features</h3>
+                        </td>
+                        <td>
+                            <h3>Fresh Ideas</h3>
+                        </td>
+                    </tr>
+                        <tr>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. </p>
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. </p>
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. </p>
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. </p>
+                        </td>
+                    </tr>
+                </table>    
+                </div> 
+            </div>  
+            <button>Check services</button>
+        </div>
+        <div class="about">
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum lorem, finibus semper sollicitudin ac, varius ut velit. Maecenas hendrerit ac ligula eu ultrices. </p>
+        </div>
+            <button>Show More</button>
+        </div>
+        <div class="imglap">
+            <img src="images/hp-laptop.png">
+        </div>
+        <div class="clear"></div>
+        <div class="about1">
+            <div class="imglap1">
+                <img src="images/computer%20skills.png">
+            </div>
+            <div class="container">
+                    <div class="text1">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum lorem, finibus semper sollicitudin ac, varius ut velit. Maecenas hendrerit ac ligula eu ultrices. </p>
+                    </div>
+                <button>Show More</button>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="container">
+                <div class="image">
+                    <img src="images/human-work-4.jpg">
+                </div> 
+                <div class="text">
+                    <h1>Lorem ipsum dolor sit amet</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie purus a felis condimentum molestie. Etiam a ullamcorper odio. Phasellus ipsum lorem, finibus semper sollicitudin ac, varius ut velit. Maecenas hendrerit ac ligula eu ultrices. </p>
+                </div>
+                <button>Show More</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="home">
+            <div class="list">
+                <div class="container">
+                    <div class="back">
+                        <div class="text">
+                            <h1>Lorem ipsum dolor sit amet</h1>
+                        </div>
+                    </div>
+                    <div class="back1">
+                        <div class="text1">
+                            <h1>Nunc fringilla tortor urna</h1>
+                        </div>
+                    </div>
+                    <div class="back2">
+                        <div class="text2">
+                            <h1>Nulla pulvinar pulvinar est</h1>
+                        </div>
+                    </div>
+                     <div class="back3">
+                        <div class="text3">
+                            <h1>Fusce at diam condim</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="clear"></div>
+        <h1 class="co">Check our <span>awesome team</span></h1>
+        <div class="persons">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td><img src="images/theRealSteveJobs.256.512797.jpg"/></td>
+                        <td><img src="images/gR9RVbmC_400x400.jpg"/></td>
+                        <td><img src="images/256.jpg"/></td>
+                        <td><img src="images/UF3cgUk4_400x400.jpg"/></td>
+                    </tr>
+                    <tr>
+                        <td><h2>Steve Jobs</h2></td>
+                        <td><h2>Mark zuckerberg</h2></td>
+                        <td><h2>Bill Gates</h2></td>
+                        <td><h2>Jeff Bezos</h2></td>
+                    </tr>
+                    <tr>
+                        <td><span>Apple</span></td>
+                        <td><span>Facebook</span></td>
+                        <td><span>Microsoft</span></td>
+                        <td><span>Amazon</span></td>
+                    </tr>
+                    <tr>
+                        <td><button>Check profile</button></td>
+                        <td><button>Check profile</button></td>
+                        <td><button>Check profile</button></td>
+                        <td><button>Check profile</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+        
+        <div class="end">
+            <div class="container">
+                <div class="text">
+                    <h1>Contact with us</h1>
+                    <p>Marszalkowska Street 14/35 / Mazowieckie, Poland </p>
+                    <p>Phone: <span>(+48) 604 234 091</span></p>
+                    <p>E-mail:  <span>contact@austera.co</span></p>
+                    <a href="https://twitter.com"><img src="images/iconfinder_twitter_circle_294709.png" ></a>
+                    <a href="https://www.facebook.com/"><img src="images/iconfinder_facebook_834722.png" ></a>
+                    <a href="https://www.pinterest.com/"><img src="images/iconfinder_pinterest_circle_294708.png" ></a>
+                    <a href="https://mail.google.com"><img src="images/iconfinder_google_circle_294707.png"></a>
+                    <a href="https://login.yahoo.com/"><img src="images/iconfinder_yahoo_246014.png"></a>
+                </div>
+                <table>
+                    <tr>
+                        <td><input type="text" placeholder="Your Name"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Your e-mail address"></td>
+                    </tr>
+                    <tr>
+                        <td><textarea placeholder="Your Message" rows="8"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button>Send Message</button></td>
+                    </tr>
+                </table>
+                    
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <div class="container">
+                <div class="link">
+                    <ul>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="copy">
+                    <p>Copyright &copy; 2015. All rights reserved by Mountec</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/iconfinder_9_330409.png" id="click" class="scrollup"/>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Loading......</title>
+    <style>
+       @font-face{
+           font-family: "vontens";
+           src:url('webfonts/vontens.otf')
+       }
+        .container{
+            position: absolute;
+            width: 100%;
+            height: 667px;
+            background:linear-gradient(to right,rgb(194, 28, 61),rgb(75, 75, 150));
+            overflow: hidden;
+            text-align: center;
+        }
+        .container h1{
+            font-weight: lighter;
+            font-size: 70px;
+            text-shadow:  10px 10px 5px black;
+            font-family: vontens;
+            margin: 12% 0 0 0;
+            color:red;
+        }
+        .container .spin{
+            width: 90px;
+            height: 90px;
+            display: inline-block;
+            margin: 3% 0 0 0;
+            border:2px solid rgba(255, 255, 255, 0.397);
+            border-radius: 50px;
+            border-top-color: #fff;
+            transition: all 1s ;
+            animation: 1s spinner infinite ease-in-out;
+        }
+        .container .dot > div{
+            width: 18px;
+            height: 18px;
+            background: #fff;
+            border-radius: 50px;
+            display: inline-block;
+            margin-top: 5%;
+            animation: 2s bounce infinite ease-in-out; 
+        }
+        .container .dot .b1{
+            animation-delay: -0.5s;
+        }
+        .container .dot .b2{
+            animation-delay: -0.25s;
+        }
+        .container .dot .b3{
+            animation-delay: -0.25s;
+        }
+        @keyframes bounce{
+            0%,50%,100%{
+                transform: scale(0);
+            }
+            40%{
+                transform: scale(1);
+            }
+        }
+        @keyframes spinner{
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loadding</h1>
+        <div class="spin"></div>
+        <div class="dot">
+            <div class="b"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+        </div>
+    </div>
+    <!--Js-->
+    <script>
+        function Redirect(){
+            window.location = "agency.html";
+        }
+       setTimeout('Redirect()',5000);
+    </script>
+</body>
+</html>

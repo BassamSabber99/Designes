@@ -1,0 +1,253 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background: url(../images/hero_2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    transition: all 1s;
+}
+header .container{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    transition: all 1s;
+}
+header .container nav{
+    width: 100%;
+    height: 80px;
+    overflow: ;
+    position: fixed;
+    background: white;
+    z-index: 100;
+    transition: all 1s;
+}
+header .container nav ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    padding: 0;
+    list-style: none;
+    transition: all 1s;
+}
+header .container nav ul li{
+    width:120px;
+    height:50px;
+    float:left;
+    text-align:center;
+    transition:all .5s;
+    transition: all 1s;
+}
+header .container nav ul li a{
+    text-decoration:none;
+	color:rgb(111, 111, 111);
+	font-size:14px;
+	line-height:50px;
+    font-family: arial;
+    transition: all 1s;
+}
+header .container nav ul li a:hover{
+    color: #0cd1d1;
+}
+#child{
+    background: black;
+    position: relative;
+    left: 60px;
+    top: -12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: none;
+    transition: all 5s;
+    transition: all 1s;
+}
+#child li{
+    padding: 10px;
+    position: relative;
+    transition: all 1s;
+}
+#child li a span{
+    position: absolute;
+    top: -18px;
+    font-size: 50px;
+    color: black;
+    transition: all 1s;
+}
+
+#parent:hover #child{
+    display: block;
+}
+header .container nav h1{
+    color: black;
+    width: 30%;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 24px;
+    float: left;
+    font-size: 30px;
+    line-height: 20px;
+    transition: all 1s;
+}
+header .container .txt{
+    width: 70%;
+    height: 20%;
+    margin: 300px auto;
+    transition: all 1s;
+}
+header .container .txt p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    font-family: arial;
+    transition: all 1s;
+}
+header .container .txt h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    transition: all 1s;
+}
+#text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: serif;
+     font-weight: 100;
+}
+hr{
+     width: 8%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+section{
+    width: 78%;
+    height: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+section div{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+section div img{
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border:1px solid rgba(0, 0, 0, 0);
+    border-radius: 100px;
+}
+section div h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 100;
+}
+section div h3{
+    text-align: center;
+    margin-bottom:30px;
+    font-family: arial;
+    font-weight: 100;
+    color: #747474;
+}
+section div p{
+    font-family: arial;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #747474;
+}
+section div a{
+    margin-left: 100px;
+    text-decoration: none;
+    font-family: arial;
+    color: #00d8ff;
+}
+section div a::after{
+    content: ' \261B';
+}
+footer{
+    width: 100%;
+    height:550px;
+    overflow: hidden;
+    background: #383737;
+}
+footer div{
+    width: 25%;
+    height: 60%;
+    margin-left:90px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    float: left;
+
+}
+footer div h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+    font-weight: 100;
+    font-size: 25px;
+}
+footer div p{
+    color: #969595;
+    font-family: arial;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+footer div button{
+    margin-left: 30px;
+    width: 45%;
+    height: 15%;
+    border:1px solid #00abde;
+    border-radius: 30px;
+    background: #00d9ff;
+    color: white;
+}
+footer div ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer div ul li{
+    margin-bottom: 20px;
+}
+footer div ul li a{
+    text-decoration: none;
+    color: #6f6f6f;
+    font-family: arial;
+}
+footer div ul li a:hover{
+    color: #a8a8a8;
+}
+footer #rights{
+    clear: both;
+    width: 50%;
+    margin: auto ;
+    color: #a8a8a8;
+    font-size: 18px;
+    font-family: cursive;
+    
+}
+footer #rights span{
+    color: #00e2ff;
+}

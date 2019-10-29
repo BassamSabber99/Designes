@@ -1,0 +1,941 @@
+main{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 670px;
+    background:url('../images/hero_2.jpg') no-repeat ;
+    background-size: cover;
+    background-position: top center;
+}
+header .overlay{
+    width: 100%;
+    height: 100%;
+    background:rgba(42, 42, 42, 0.376);
+    overflow: hidden;
+}
+header .overlay nav{
+    width: 100%;
+    height:80px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    transition: all .5s;
+    position: relative;
+    z-index: 5000;
+   
+}
+header .overlay nav h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-weight: 300;
+}
+header .overlay nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 75px;
+}
+header .overlay nav ul li{
+    float: left;
+    width: 100px;
+    height: 100%;
+    text-align: center;
+}
+header .overlay nav ul li a{
+    text-decoration: none;
+    color:#CDDCDD;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80px;
+    transition: all 0.5s;
+}
+header .overlay nav ul li a:hover{
+    color:white
+}
+header .overlay hr{
+    overflow: hidden;
+    height: 0.8px;
+    background-color:rgba(205, 220, 221, 0.335);
+    border: none;
+}
+header .overlay .preview{
+    overflow: hidden;
+    width: 40%;
+    height: auto;
+    margin: 120px auto 0 auto;
+}
+header .overlay .preview h1{
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+}
+header .overlay .preview p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(227, 237, 238);
+    margin-bottom: 50px;
+}
+header .overlay .preview button{
+    display: block;
+    width: 145px;
+    height: 46px;
+    margin: auto;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: crimson;
+    border:0.5px solid crimson;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+header .overlay .preview button:hover{
+    color:crimson;
+    background: white;
+    border-color:white;
+}
+.sec1{
+    overflow: hidden;
+    width: 100%;
+    height: 900px;
+}
+.sec1 .content{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.sec1 .content img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+.sec1 .content .txt1{
+    overflow: hidden;
+    position: absolute;
+    top: 300px;
+    right:80px;
+    width: 550px;
+    height: 457px;
+    background:linear-gradient(crimson,rgb(155, 14, 42));
+    z-index: 10;
+}
+.sec1 .content .txt1 h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(235, 227, 231);
+    text-align: justify;
+    margin-left: 40px;
+    font-size:15px;
+}
+.sec1 .content .txt1 h1{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:100;
+    width: 80%;
+}
+.sec1 .content .txt1 p{
+    margin-top: 45px;
+    margin-left: 40px;
+    text-align: left;
+    color:rgb(235, 227, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85%;
+    font-size: 18px;
+    line-height: 30px;
+}
+.sec1 .content .txt1 button{
+    display: block;
+    width: 145px;
+    height: 46px;
+    margin-left: 40px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #505288;
+    border:0.5px solid #505288;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+.sec2{
+    width: 100%;
+    height:auto;
+    
+}
+.sec2 .txt{
+    overflow: hidden;
+    height: auto;
+}
+.sec2 .txt h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 22%;
+    margin-left: 144px;
+    color: crimson;
+}
+.sec2 .txt p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 33%;
+    line-height: 38px;
+    margin-left: 144px;
+    color: #9080A1;
+}
+.sec2 .c1{
+    width:80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sec2 .c1 .t{
+    width: 255px;
+    height: 340px;
+    background: #F0F0F0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.sec2 .c1 .t .image{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.sec2 .c1 .t .image ul{
+    position: absolute;
+    z-index: 15;
+    margin:0;
+    padding: 0;
+    list-style: none;
+    top:95px;
+    transition: all 0.5s;
+    left: -40px;
+}
+.sec2 .c1 .t .image ul li{
+    background: #E81050;
+    text-align: center;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}
+.sec2 .c1 .t .image ul li a{
+    text-align: center;
+    text-decoration: none;
+    line-height: 45px;
+    color:white;
+}
+.sec2 .c1 .t .image img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 14;
+}
+.sec2 .c1 .t .txt2{
+   margin-top: 255px;
+   width: 100%;
+   height: 100%;
+}
+.sec2 .c1 .t .txt2 h1{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 44, 44);
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: 100;
+}
+.sec2 .c1 .t .txt2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#80808E;
+    font-weight: 100;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.sec2 .c1 .t:hover .image ul{
+    left: 0px;
+}
+.sec3{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom:150px;
+    border-top: 2px solid #ddd;
+}
+.sec3 .c2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:100px auto 0 auto;
+}
+.sec3 .c2 .slider{
+    width: 50%;
+    position: relative;
+    transition: all 2s;
+}
+.sec3 .c2 .slider img{
+    width: 100%;
+    height: 100%;
+    transition: all 2s;
+}
+.sec3 .c2 .slider p{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 48px;
+    width: 25%;
+    height: 15%;
+    background: crimson;
+}
+.sec3 .c2 .slider p span{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sec3 .c2 .txt3{
+    overflow: hidden;
+    width: 50%;
+}
+.sec3 .c2 .txt3 h1{
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    font-size: 40px;
+    margin:auto;
+    line-height: 36px;
+} 
+.sec3 .c2 .txt3 h3{
+    color:rgb(127, 127, 129);
+    width: 78%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 36px;
+}
+.sec3 .c2 .txt3 p{
+    color:rgb(127, 127, 129);
+    width: 78%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.sec3 .c2 .txt3 button{
+    display: block;
+    width: 145px;
+    height: 46px;
+    margin-left:50px;
+    margin-top: 30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: crimson;
+    border:0.5px solid crimson;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.sec3 .c2 .txt3 button:hover{
+    background: white;
+    border-color: white;
+    color:crimson;
+}
+.sec4{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.sec4 h1{
+    color:rgb(241, 24, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.sec4 .c3{
+    width: 77%;
+    height: auto;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sec4 .c3 > div{
+    width: 30%;
+    height: 180px;
+}
+.sec4 .c3 > div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.sec4 .c3 > div h2 span{
+    color:crimson;
+    font-size: 16px;
+}
+.sec4 .c3 > div p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color:rgb(153, 153, 153);
+}
+.sec5{
+    width: 100%;
+    height: auto;
+    background: #F8F9FA;
+    overflow: hidden;
+}
+.sec5 h1{
+    text-align: center;
+    margin-top: 80px;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.sec5 .c4{
+    width:85%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.sec5 .c4 >div{
+    width: 30%;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec5 .c4 >div .icon{
+    width: 12%;
+    height: 100%;
+    overflow: hidden;
+}
+.sec5 .c4 >div .icon i{
+    color:crimson;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+.sec5 .c4 >div .text3{
+    width: 87%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.sec5 .c4 >div .text3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color:rgb(153, 153, 153);
+}
+.sec5 .c4 >div .text3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color:rgb(153, 153, 153);
+    width: 70%;
+    line-height: 22px;
+}
+.sec5 .c4 >div .text3 a{
+    text-decoration: none;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec6{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.sec6 h1{
+    text-align: center;
+    margin-top: 80px;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.sec6 .slideshow-container{
+    width: 100%;
+    height: 340px;
+    position: relative;
+}
+.sec6 .slideshow-container .mySlides{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left:135px;
+    top: 0;   
+}
+.sec6 .slideshow-container .mySlides p{
+    color:rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    font-size: 22px;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+    line-height: 30px;
+    user-select: none;
+}
+.sec6 .slideshow-container .mySlides .img{
+    width: 100%;
+    height: 65px;
+    margin-top: 70px;
+}
+.sec6 .slideshow-container .mySlides .img img{
+    height: 90%;
+    width:6%;
+    border-radius: 50px;
+    margin-left: 400px;
+    float: left;
+}
+.sec6 .slideshow-container .mySlides .img span{
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-top: 24px;
+    margin-left: 10px;
+    color:rgb(160, 160, 160);
+}
+
+.sec6 .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.sec6 .active, .dot:hover {
+    background-color:crimson;
+}
+
+.sec7 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.sec7 .c5{
+    width: 90%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec7 .c5 .text4{
+    width: 56%;
+    height: auto;
+    background: white;
+}
+.sec7 .c5 .text4 h1{
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+.sec7 .c5 .text4 .c6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sec7 .c5 .text4 .c6 > div{
+    width: 48%;
+    height: 300px;
+}
+.sec7 .c5 .text4 .c6 > div h2{
+    color:rgb(98, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+}
+.sec7 .c5 .text4 .c6 > div p{
+    color:rgb(98, 98, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    width: 60%;
+}
+.sec7 .c5 .text4 .c6 > div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:crimson;
+}
+.sec7 .c5 .slide-container{
+    height: 350px;
+    width: 44%;
+    position: relative;
+}
+.sec7 .c5 .slide-container img{
+    position: absolute;
+    top: 0;
+    height: auto;
+    width: 100%;
+    display: none;
+}
+.sec7 .c5 .slide-container .active{
+    display: inline-block;
+}
+.sec7 .c5 .slide-container  p{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 48px;
+    width: 25%;
+    height: 15%;
+    background: crimson;
+    z-index: 100;
+}
+.sec7 .c5 .slide-container p span{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sec8 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.sec8 p{
+    text-align: center;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.sec8 h1{
+    text-align: center;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.sec8 .c7{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sec8 .c7 > div{
+    width:360px;
+    height: 590px;
+    margin-bottom: 10px;
+}
+.sec8 .c7 > div img{
+    width: 100%;
+    height: auto;
+}
+.sec8 .c7 > div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    cursor: pointer;
+    color:crimson;
+    transition: all 0.5s;
+}
+.sec8 .c7 > div h2:hover{
+    color:black;
+}
+.sec8 .c7 > div h4{
+    color:rgb(199, 199, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+.sec8 .c7 > div h4 span{
+    cursor: pointer;
+    color:crimson;
+    transition: all 0.5s;
+}
+.sec8 .c7 > div h4 span:hover{
+    color:black;
+}
+.sec8 .c7 > div .t{
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    color:rgb(182, 182, 182);
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.sec8 .c7 > div a{
+    text-decoration: none;
+    color:crimson;
+    transition: all 0.5s;
+    line-height: 75px;
+}
+.sec8 .c7 > div a:hover{
+    color:black;
+}
+.sec9 {
+    width:100%;
+    height: auto;
+    overflow: hidden;
+    background: #F8F9FA;
+}
+.sec9 h1{
+    text-align: center;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.sec9 p{
+    text-align: center;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.sec9 .c8{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.sec9 form{
+    width: 45%;
+    height: 890px;
+    background: white;
+    box-shadow: 6px 8px 12px black;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.sec9 form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 32%;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.sec9 form >div{
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 40%;
+    overflow: hidden;
+}
+.sec9 form >div label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec9 form >div input{
+    margin-top: 10px;
+    outline: none;
+    border:1px solid #ddd;
+    border-radius: 50px;
+    background: white;
+    padding: 10px;
+}
+.sec9 form .un{
+    width: 86%;
+}
+.sec9 form .un #es{
+    width: 95%;
+}
+.sec9 form >div input:focus{
+    border-color: crimson;
+}
+.sec9 form .un label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec9 form .un textarea{
+    width: 95%;
+    margin-top: 10px;
+    outline: none;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    resize: none;
+}
+.sec9 form .un textarea:focus{
+    border-color: crimson;
+}
+
+.sec9 .text5{
+    width: 30%;
+    height: 280px;
+    background: white;
+    box-shadow: 6px 8px 12px black;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+.sec9 .text5 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    color:rgb(70, 70, 70)
+}
+.sec9 .text5 span{
+    display: block;
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sec9 form   button{
+    margin-top: 50px;
+    margin-left: 50px;
+    background: crimson;
+    border:1px solid crimson;
+    border-radius: 50px;
+    padding:10px 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.sec9 form   button:hover{
+    background: white;
+    border-color:white;
+}
+footer{
+    width: 100%;
+    min-height: 645px;
+    background: #333333;
+    overflow: hidden;
+}
+footer .c9{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-top:150px;
+    margin-left:100px;
+
+}
+footer .c9 .about{
+    width: 22%;
+    height: auto;
+    overflow: hidden;
+}
+footer .c9 .about h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    
+}
+footer .c9 .about p{
+    color:rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serifl;
+
+}
+footer .c9 .quick{
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+}
+footer .c9 .quick h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+footer .c9 .quick ul{
+    list-style: none;
+    margin: 0;
+}
+footer .c9 .quick ul li{
+    color:rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serifl;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+footer .c9 .Subscribe{
+    width:30%;
+    height: auto;
+    overflow: hidden;
+}
+footer .c9 .Subscribe h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+footer .c9 .Subscribe .inpu label{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size:16px;
+    background: crimson;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+footer .c9 .Subscribe .inpu input{
+    outline: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: transparent;
+    border:0.5px solid white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+footer .c9 .Subscribe .ico{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+footer .c9 .Subscribe .ico span{
+    color:rgb(104, 104, 104);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+footer .c9 .Subscribe .ico span:hover{
+    color:white;
+}
+footer hr{
+    border:none;
+    width: 70%;
+    height: 1px;
+    background: rgb(117, 117, 117);
+    margin-top: 100px;
+}
+footer .b{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(117, 117, 117);
+    text-align: center;
+    margin-top:70px;
+}

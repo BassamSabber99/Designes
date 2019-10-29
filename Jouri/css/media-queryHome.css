@@ -1,0 +1,128 @@
+@media screen and (max-width: 767px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+  .slider .jumb{
+    top:20%;
+    left: 10%;
+  }
+  .slider .jumb h1{
+    font-size: 35px;
+  }
+  .slider .jumb p{
+    font-size: 16px;
+  }
+  .slider .arrow{
+    top:75%;
+    height: 60px;
+  }
+  .slider .arrow img{
+    height: 50%;
+  }
+  .sec1 .overlay2 .txt1{
+    width: 100%;
+  }
+  .sec1 .overlay2 .txt1 span{
+    text-align: center;
+  }
+  .sec1 .overlay2 .txt1 h1{
+    text-align: center;
+  }
+  .sec1 .overlay2 .txt1 p{
+    text-align: center;
+  }
+  .sec1 .overlay2 .images .imgbox{
+    width: 100%;
+  }
+  .sec2 .overlay3 .imgbox2{
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .sec6 .c{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec6 .gallry .imgbox3{
+    width: 100%;
+    background-size: cover;
+  }
+  footer .overlay4 .logof{
+    width: 16%;
+    margin-top:50px;
+  }
+  
+}
+@media screen and (min-width:768px){
+  .slider .jumb{
+    
+    left: 5%;
+  }
+  .slider .arrow{
+    top:88%;
+    height: 60px;
+  }
+  .slider .arrow img{
+    height: 50%;
+  }
+  .sec1 .overlay2 .images{
+    width: 100%;
+  }
+  .sec1 .overlay2 .images .imgbox{
+    width: 45%;
+  }
+  .sec1 .overlay2 .images .imgbox:nth-of-type(2){
+    margin-top: 0;
+  }
+  .sec2 .overlay3 .imgbox2{
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .sec4 .container .imgbox3,
+  .sec4 .container .txt3{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec6 .c{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec6 .gallry .imgbox3{
+    margin: auto;
+     width: 337px;
+  }
+}
+@media screen and (min-width:992px){
+  .slider .jumb{
+    left: 20%;
+  }
+  .sec4 .container .imgbox3,
+  .sec4 .container .txt3{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec6 .c{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec6 .gallry .imgbox3{
+    margin: auto;
+    width: 33.3%;
+  }
+}
+@media screen and (min-width:1200px){
+  .slider .jumb{
+    left:25%;
+  }
+  .sec1 .overlay2 .images{
+    width:560px;
+  }
+  .sec1 .overlay2 .images .imgbox{
+    width:277px;
+  }
+  .sec1 .overlay2 .images .imgbox:nth-of-type(2){
+    margin-top: 80px;
+  }
+}
